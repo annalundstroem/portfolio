@@ -1,0 +1,78 @@
+body {
+    background-color: #e6e6e6;
+    padding: 20vw 0vw 0vw 0vw;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #575757;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    width: 50%;
+}
+
+hr {
+width: 90;
+margin-left: auto;
+margin-right: auto;
+    margin-top: 10vw;
+height: 1px;
+background-color:#666;
+opacity: 0.5;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn {
+    border: 1px #fff solid;
+    background-color: #cdcec0;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 1000;
+    color: #7a7f82;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #575757;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
