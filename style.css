@@ -1,17 +1,68 @@
 body {
-    background-color: #e6e6e6;
-    padding: 20vw 0vw 0vw 0vw;
+    background-color: #fff;
+    padding: 1px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+
+}
+
+.name {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2em;
+
+}
+
+.container {
+    cursor: crosshair;
+    float: right;
+}
+
+.menu {
+    border: 2px solid #fde0e5;
+    height: 240px;
+    width: 150px;
+    background-color: #fde0e5;
+}
+
+.menulinks {
+    float: left;
+    text-align: center;
+    width: 150px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.4rem;
+}
+
+.forside {
+    height: 47px;
+}
+
+.om_mig {
+    height: 47px;
+}
+
+.portfolio {
+    height: 47px;
+}
+
+.kontakt {
+    height: 47px;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 2.5rem;
     color: #575757;
     text-align: center;
+    padding: 20vw 0 0 0;
 }
 
 img {
     width: 50%;
+    border-radius: 50%;
 
 }
 
@@ -24,31 +75,16 @@ img {
 }
 
 hr {
-width: 90;
-margin-left: auto;
-margin-right: auto;
+    width: 90;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10vw;
-height: 1px;
-background-color:#666;
-opacity: 0.5;
+    height: 1px;
+    background-color: #666;
+    opacity: 0.5;
 }
 
-.container {
-    display: inline-block;
-    cursor: pointer;
-}
 
-.btn {
-    border: 1px #fff solid;
-    background-color: #cdcec0;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    white-space: nowrap;
-    font-weight: 1000;
-    color: #7a7f82;
-}
 
 .bar1,
 .bar2,
@@ -58,21 +94,55 @@ opacity: 0.5;
     background-color: #575757;
     margin: 6px 0;
     transition: 0.4s;
+
+
 }
 
-/* Rotate first bar */
+
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-/* Fade out the second bar */
+
 .change .bar2 {
     opacity: 0;
 }
 
-/* Rotate last bar */
+
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.button {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2rem;
+    background-color: #cad3d6;
+    border-radius: 30vw;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    color: black;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    /*for at få teksten i midten vertikalt*/
+    text-decoration: none;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+
 }
