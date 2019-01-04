@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: rgba(245, 245, 245, 0.3);
     padding: 1px;
 }
 
@@ -16,16 +16,19 @@ body {
 
 }
 
-.container {
+.burgermenu {
     cursor: crosshair;
     float: right;
+    z-index: 1;
 }
 
 .menu {
-    border: 2px solid #fde0e5;
+    border: 2px solid #e08f8d;
     height: 240px;
     width: 150px;
-    background-color: #fde0e5;
+    background-color: #e08f8d;
+    position: absolute;
+    right: 4vw;
 }
 
 .menulinks {
@@ -34,22 +37,29 @@ body {
     width: 150px;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 1.4rem;
+
+
+}
+
+.menulinks a {
+    text-decoration: none;
+    color: black;
 }
 
 .forside {
-    height: 47px;
+    height: 14vw;
 }
 
 .om_mig {
-    height: 47px;
+    height: 14vw;
 }
 
 .portfolio {
-    height: 47px;
+    height: 14vw;
 }
 
 .kontakt {
-    height: 47px;
+    height: 14vw;
 }
 
 h1 {
@@ -57,13 +67,7 @@ h1 {
     font-size: 2.5rem;
     color: #575757;
     text-align: center;
-    padding: 20vw 0 0 0;
-}
-
-img {
-    width: 50%;
-    border-radius: 50%;
-
+    padding: 2vw 0 0 0;
 }
 
 .portrait {
@@ -72,6 +76,7 @@ img {
     margin-right: auto;
     margin-top: 10vw;
     width: 50%;
+    border-radius: 50%;
 }
 
 hr {
@@ -80,8 +85,9 @@ hr {
     margin-right: auto;
     margin-top: 10vw;
     height: 1px;
-    background-color: #666;
+    background-color: #8e8e8e;
     opacity: 0.5;
+    border: none;
 }
 
 
@@ -131,18 +137,55 @@ hr {
     /*for at få teksten i midten vertikalt*/
     text-decoration: none;
     font-weight: 500;
+    border: 1px solid white;
+    cursor: crosshair;
 }
 
 h2 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 1.2rem;
     text-align: center;
+    margin-top: 8vw;
 }
 
 
 p {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     text-align: center;
 
+}
+
+.tema_billede {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tema_tekst {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 50vw;
+    background-color: white;
+
+
+}
+
+footer {
+    background-color: #e08f8d;
+    margin-bottom: 0vw;
+    height: 10vw;
+    line-height: 10vw;
+
+}
+
+.hide {
+    display: none;
 }
