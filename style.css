@@ -1,6 +1,6 @@
 body {
     background-color: rgba(245, 245, 245, 0.3);
-    padding: 1px;
+    padding: 1vw;
 }
 
 .top {
@@ -12,7 +12,7 @@ body {
 
 .name {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 
 }
 
@@ -23,9 +23,9 @@ body {
 }
 
 .menu {
-    border: 2px solid #e08f8d;
-    height: 240px;
-    width: 150px;
+    border: 0.2vw solid #e08f8d;
+    height: 80vw;
+    width: 45vw;
     background-color: #e08f8d;
     position: absolute;
     right: 4vw;
@@ -34,40 +34,55 @@ body {
 .menulinks {
     float: left;
     text-align: center;
-    width: 150px;
+    width: 45vw;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 1.4rem;
-
-
 }
 
 .menulinks a {
     text-decoration: none;
     color: black;
+    cursor: crosshair;
+}
+
+.forside:hover {
+    background-color: #db6663;
 }
 
 .forside {
     height: 14vw;
+    line-height: 14vw;
+}
+
+.om_mig:hover {
+    background-color: #db6663;
 }
 
 .om_mig {
     height: 14vw;
+    line-height: 14vw;
+}
+
+.portfolio:hover {
+    background-color: #db6663;
 }
 
 .portfolio {
     height: 14vw;
+    line-height: 14vw;
 }
 
-.kontakt {
+/*
+#kontakt:hover {
+    background-color: #db6663;
+}
+*/
+
+#kontakt {
+    /*
     height: 14vw;
-}
-
-h1 {
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 2.5rem;
-    color: #575757;
-    text-align: center;
-    padding: 2vw 0 0 0;
+    line-height: 14vw;
+*/
 }
 
 .portrait {
@@ -79,12 +94,35 @@ h1 {
     border-radius: 50%;
 }
 
+
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+    color: #575757;
+    text-align: center;
+    padding: 2vw 0 0 0;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 8vw;
+}
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
 hr {
-    width: 90;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vw;
-    height: 1px;
+    height: 0.2vw;
     background-color: #8e8e8e;
     opacity: 0.5;
     border: none;
@@ -131,21 +169,14 @@ hr {
     text-align: center;
     white-space: nowrap;
     color: black;
-    width: 170px;
-    height: 40px;
-    line-height: 40px;
+    width: 60vw;
+    height: 12vw;
+    line-height: 12vw;
     /*for at få teksten i midten vertikalt*/
     text-decoration: none;
     font-weight: 500;
-    border: 1px solid white;
+    border: 1vw solid white;
     cursor: crosshair;
-}
-
-h2 {
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-top: 8vw;
 }
 
 
@@ -156,26 +187,40 @@ p {
 
 }
 
-.tema_billede {
+#om_mig p {
     width: 80%;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
-.tema_tekst {
-    width: 80%;
+/*
+.tema_billede1,
+.tema_billede2 {
+    width: 1vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    height: 50vw;
+
+}
+
+.tema_tekst1,
+.tema_tekst2 {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 74vw;
     background-color: white;
 
+}
+*/
 
+img {
+    width: 100%;
 }
 
 footer {
@@ -188,4 +233,188 @@ footer {
 
 .hide {
     display: none;
+}
+
+/* Ved skærme der er minimum 375px */
+@media screen and (min-width: 375px) {
+    .forside {
+        height: 12vw;
+        line-height: 12vw;
+    }
+
+    .om_mig {
+        height: 12vw;
+        line-height: 12vw;
+    }
+
+    .portfolio {
+        height: 12vw;
+        line-height: 12vw;
+    }
+
+    #kontakt {
+        /*
+
+        height: 12vw;
+        line-height: 12vw;
+*/
+
+    }
+}
+
+/* Ved skærme der er minimum 768px */
+@media screen and (min-width: 768px) {
+
+    .menu {
+        height: 45vw;
+        width: 25vw;
+
+    }
+
+    .menulinks {
+        width: 25vw;
+
+    }
+
+    .forside {
+        height: 9vw;
+        line-height: 9vw;
+    }
+
+    .om_mig {
+        height: 9vw;
+        line-height: 9vw;
+    }
+
+    .portfolio {
+        height: 9vw;
+        line-height: 9vw;
+    }
+
+    #kontakt {
+        /*
+        height: 9vw;
+        line-height: 9vw;
+*/
+    }
+}
+
+/* Ved skærme der er minimum 1024px */
+@media screen and (min-width: 1024px) {
+
+    .name {
+        font-size: 1.8rem;
+    }
+
+    .menu {
+        height: 40vw;
+        width: 230px;
+
+    }
+
+    .menulinks {
+        width: 230px;
+        height: 440px;
+
+    }
+
+    .forside {
+        height: 9vw;
+        line-height: 9vw;
+    }
+
+    .om_mig {
+        height: 9vw;
+        line-height: 9vw;
+    }
+
+    .portfolio {
+        height: 9vw;
+        line-height: 9vw;
+    }
+
+    #kontakt {
+        padding-bottom: 5vh;
+        /*
+        height: 9vw;
+        line-height: 9vw;
+*/
+    }
+
+    .portrait {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .overskrift2 {
+        margin-bottom: 10vh;
+        font-size: 3rem;
+    }
+
+
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    #om_mig p {
+        width: 30vw;
+        font-size: 1.5rem;
+    }
+
+
+    .button {
+        width: 17vw;
+        height: 4vw;
+        line-height: 4vw;
+        font-size: 2rem;
+        border: 0.5vw;
+        margin-top: 5vh;
+    }
+
+
+    .sectionwrapper1 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .sectionwrapper2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+
+    }
+
+
+    .tema_tekst1 {
+        width: 50vh;
+        height: 50vh;
+        padding: 5vh 5vh 5vh 5vh;
+        background-color: white;
+
+    }
+
+    .tema_tekst2 {
+        width: 50vh;
+        height: 50vh;
+        padding: 5vh 5vh 5vh 5vh;
+        background-color: white;
+    }
+
+
+    .portfolio_billeder {
+        width: 30vw;
+    }
 }
