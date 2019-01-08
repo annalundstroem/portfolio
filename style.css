@@ -312,38 +312,37 @@ footer {
     }
 
     .menu {
-        height: 40vw;
-        width: 230px;
-
+        width: 15vw;
+        height: 25vw;
     }
 
     .menulinks {
-        width: 230px;
-        height: 440px;
-
+        width: 15vw;
+        height: 25vw;
     }
 
     .forside {
-        height: 9vw;
-        line-height: 9vw;
+        height: 5vw;
+        line-height: 5vw;
+        font-size: 2rem;
     }
 
     .om_mig {
-        height: 9vw;
-        line-height: 9vw;
+        height: 5vw;
+        line-height: 5vw;
+        font-size: 2rem;
     }
 
     .portfolio {
-        height: 9vw;
-        line-height: 9vw;
+        height: 5vw;
+        line-height: 5vw;
+        font-size: 2rem;
     }
 
-    #kontakt {
-        padding-bottom: 5vh;
-        /*
-        height: 9vw;
-        line-height: 9vw;
-*/
+    .kontakt {
+        height: 5vw;
+        line-height: 5vw;
+        font-size: 2rem;
     }
 
     .portrait {
@@ -405,7 +404,7 @@ footer {
 
     .tema_tekst1 {
         width: 50vh;
-        height: 50vh;
+        height: 49vh;
         padding: 5vh 5vh 5vh 5vh;
         background-color: white;
 
@@ -413,7 +412,7 @@ footer {
 
     .tema_tekst2 {
         width: 50vh;
-        height: 50vh;
+        height: 49vh;
         padding: 5vh 5vh 5vh 5vh;
         background-color: white;
     }
