@@ -72,17 +72,15 @@ body {
     line-height: 14vw;
 }
 
-/*
-#kontakt:hover {
+.kontakt:hover {
     background-color: #db6663;
 }
-*/
 
-#kontakt {
-    /*
+.kontakt {
+
     height: 14vw;
     line-height: 14vw;
-*/
+
 }
 
 .portrait {
@@ -193,6 +191,13 @@ p {
     margin-right: auto;
 }
 
+.tema_tekst1,
+.tema_tekst2 {
+    height: 80vw;
+}
+
+
+
 /*
 .tema_billede1,
 .tema_billede2 {
@@ -252,13 +257,13 @@ footer {
         line-height: 12vw;
     }
 
-    #kontakt {
-        /*
-
+    .kontakt {
         height: 12vw;
         line-height: 12vw;
-*/
+    }
 
+    .menu {
+        height: 70vw;
     }
 }
 
